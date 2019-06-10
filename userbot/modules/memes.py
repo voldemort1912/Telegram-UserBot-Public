@@ -331,7 +331,7 @@ async def zal(zgfy):
 
 #@register(outgoing=True, pattern="^hi$")
 #async def hoi(hello):
-#    """ Greet everyone! """
+#    """ Greet everyone! 
 #    await hello.edit("Hoi!😄")
 
 
