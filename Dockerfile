@@ -47,7 +47,7 @@ RUN adduser userbot --disabled-password --home /home/userbot
 RUN adduser userbot wheel
 USER userbot
 RUN mkdir /home/userbot/userbot
-RUN git clone -b master https://github.com/Voldemort1912/UserBot /home/userbot/userbot
+RUN git clone https://github.com/Voldemort1912/Telegram-Userbot-Public /home/userbot/userbot
 WORKDIR /home/userbot/userbot
 
 #
