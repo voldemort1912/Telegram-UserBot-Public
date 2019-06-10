@@ -19,10 +19,10 @@ from userbot.modules.dbhelper import approval, approve, block_pm, notif_state, n
 from userbot.events import register
 
 # ========================= CONSTANTS ============================
-UNAPPROVED_MSG = ("`Bleep blop! This is a bot. Don't fret.`\n\n"
-                  "`My master hasn't approved you to PM.`"
-                  "`Please wait for my master to look in, he mostly approves PMs.`\n\n"
-                  "`As far as I know, he doesn't usually approve retards though.`")
+UNAPPROVED_MSG = ("Hello! This is a bot! My Owner, Voldemort"
+                  "isn't here Right now :( I'll be Sure to Pass your Message to Him!"
+                  "Meanwhile, You can Ask for Help (if that's what you wanted to do) at @VoldemortCommunity!  \n\n"
+                  "Peace????! ~@hewhomustn0tbenamed")
 # =================================================================
 
 
