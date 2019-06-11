@@ -10,7 +10,7 @@ from lmgtfy import lmgtfy
 from collections import deque
 from telethon.tl.functions.users import GetFullUserRequest
 from userbot.events import register
-from userbot.modules.rextester.api import UnknownLanguage, Rextester
+#from userbot.modules.rextester.api import UnknownLanguage, Rextester
 from time import sleep
 from selenium import webdriver
 from urllib.parse import quote_plus
@@ -122,7 +122,7 @@ async def _(event):
         output_str += f"- {channel_obj.title} @{channel_obj.username} \n"
     await event.edit(output_str)
 
-@register(outgoing=True, pattern="^\$")
+"""@register(outgoing=True, pattern="^\$")
 async def rextestercli(e):
     stdin = ""
     message = e.text
@@ -165,7 +165,7 @@ async def rextestercli(e):
                 await e.edit(code)
             return
 
-        await e.edit(output)
+        await e.edit(output)"""
 
 
 @register(outgoing=True, pattern="^.setlang")
