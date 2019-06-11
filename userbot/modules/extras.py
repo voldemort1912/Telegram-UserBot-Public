@@ -1,6 +1,6 @@
 import asyncio, subprocess
 import time, re, io, os
-from userbot import bot, LOGGER, LOGGER_GROUP, HELPER
+from userbot import bot, HELPER
 from telethon import events, functions, types
 from telethon.events import StopPropagation
 from telethon.tl.functions.messages import ExportChatInviteRequest
@@ -95,12 +95,12 @@ async def disapprovepm(disapprvpm):
             f"[{name0}](tg://user?id={disapprvpm.chat_id}) `Disaproved to PM!`"
             )
 
-        if LOGGER:
-            await bot.send_message(
-                LOGGER_GROUP,
-                f"[{name0}](tg://user?id={disapprvpm.chat_id})"
-                " was disapproved to PM you.",
-            )
+        #if LOGGER:
+        #    await bot.send_message(
+        #        LOGGER_GROUP,
+        #        f"[{name0}](tg://user?id={disapprvpm.chat_id})"
+        #        " was disapproved to PM you.",
+        #    )
 
 @register(outgoing=True, pattern="^.clock$")
 async def _(event):
