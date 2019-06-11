@@ -28,3 +28,6 @@ spotify_token
 pymongo[srv]
 redis
 dnspython
+lmgtfy
+selenium
+
